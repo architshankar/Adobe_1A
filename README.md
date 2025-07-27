@@ -53,7 +53,7 @@ We use a **two-stage ML pipeline** to extract structured outlines from unstructu
 Run locally using Python 3.12:
 
 ```bash
-python your_script_name.py
+python process_pdfs.py
 ```
 
 All PDFs in `/app/input` will be processed and their outlines saved in `/app/output`.
@@ -80,7 +80,6 @@ docker run --rm \
   mysolutionname:somerandomidentifier
 ```
 
-This runs the process in a secure, isolated container without internet access (`--network none`), complying with competition/hackathon constraints.
 
 ---
 
